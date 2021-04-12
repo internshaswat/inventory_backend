@@ -15,23 +15,23 @@ url to be used -
 
 GET
 
-http://<URL>/api/
+http://URL/api/
   
 GET BY ID
 
-http://<URL>/api/<ID>
+http://URL/api/<ID>
   
 POST
 
-http://<URL>/api/
+http://URL/api/
   
 PATCH
 
-http://<URL>/api/<ID>  
+http://URL/api/<ID>  
   
 DELETE
 
-http://<URL>/api/<ID>
+http://URL/api/<ID>
 
 ## Project setup
 ```
