@@ -1,37 +1,37 @@
 # Node.js Express & MongoDB: CRUD Rest APIs
 
-For more detail, please visit:
-> [Node.js, Express & MongoDb: Build a CRUD Rest Api example](https://bezkoder.com/node-express-mongodb-crud-rest-api/)
+sample data
 
-> [Server side Pagination in Node.js with MongoDB and Mongoose](https://bezkoder.com/node-js-mongodb-pagination/)
 
-Security:
-> [Node.js + MongoDB: User Authentication & Authorization with JWT](https://bezkoder.com/node-js-mongodb-auth-jwt/)
+{
+"name":"NAME",
+  "description":"my name DESCRIBE",
+  "brand":"lancer",
+  "price":"100",
+  "stock":"50"
+}
 
-Associations:
-> [MongoDB One-to-One relationship tutorial with Mongoose examples](https://bezkoder.com/mongoose-one-to-one-relationship-example/)
+url to be used -
 
-> [MongoDB One-to-Many Relationship tutorial with Mongoose examples](https://bezkoder.com/mongoose-one-to-many-relationship/)
+GET
 
-> [MongoDB Many-to-Many Relationship with Mongoose examples](https://bezkoder.com/mongodb-many-to-many-mongoose/)
+http://<URL>/api/
+  
+GET BY ID
 
-Fullstack:
-> [Vue.js + Node.js + Express + MongoDB example](https://bezkoder.com/vue-node-express-mongodb-mevn-crud/)
+http://<URL>/api/<ID>
+  
+POST
 
-> [Angular 8 + Node.js + Express + MongoDB example](https://bezkoder.com/angular-mongodb-node-express/)
+http://<URL>/api/
+  
+PATCH
 
-> [Angular 10 + Node.js + Express + MongoDB example](https://bezkoder.com/angular-10-mongodb-node-express/)
+http://<URL>/api/<ID>  
+  
+DELETE
 
-> [Angular 11 + Node.js + Express + MongoDB example](https://bezkoder.com/angular-11-mongodb-node-js-express/)
-
-> [React + Node.js + Express + MongoDB example](https://bezkoder.com/react-node-express-mongodb-mern-stack/)
-
-Integration (run back-end & front-end on same server/port)
-> [Integrate React with Node.js Restful Services](https://bezkoder.com/integrate-react-express-same-server-port/)
-
-> [Integrate Angular with Node.js Restful Services](https://bezkoder.com/integrate-angular-10-node-js/)
-
-> [Integrate Vue with Node.js Restful Services](https://bezkoder.com/serve-vue-app-express/)
+http://<URL>/api/<ID>
 
 ## Project setup
 ```
